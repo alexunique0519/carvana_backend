@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Carvana" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Conestoga\\Mobile\ Solutions\ Dev\\Web\ Tech\\carpool_app\\back_end\\carpool_web_backend\\carpool_web_backend\\obj\\Debug\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\Conestoga\\Mobile\ Solutions\ Dev\\Web\ Tech\\carpool_app\\back_end\\carpool_web_backend\\carpool_web_backend\\obj\\Debug\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="carpool_db-Web.config Connection String" description="" value="Server=tcp:carpooldb.database.windows.net,1433;Database=Carpool_DB;User ID=db_admin@carpooldb;Password=Carpool0519;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="">
+    <parameterEntry kind="XmlFile" scope="D:\\Conestoga\\Mobile\ Solutions\ Dev\\Web\ Tech\\carpool_app\\back_end\\carpool_web_backend\\carpool_web_backend\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='carpool_db']/@connectionString" />
+  </parameter>
+</parameters>

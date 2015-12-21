@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="carpool_db-Web.config Connection String" description="carpool_db Connection String used in web.config by the application to access the database." defaultValue="carpool_db_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Conestoga\\Mobile\ Solutions\ Dev\\Web\ Tech\\carpool_app\\back_end\\carpool_web_backend\\carpool_web_backend\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='carpool_db']/@connectionString" />
+  </parameter>
+</parameters>
